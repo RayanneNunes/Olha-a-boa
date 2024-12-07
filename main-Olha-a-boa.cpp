@@ -11,12 +11,11 @@ using namespace std;
 struct Celula {
     int numero;
     bool marcado;
-};
+}; 
 
 struct Cartela {
     Celula celulas[linha][coluna];
 };
-
 // Função para gerar números aleatórios sem repetição na mesma cartela
 int gerarAleatorio(set<int>& numerosGerados, int min, int max) {
     int numero;
